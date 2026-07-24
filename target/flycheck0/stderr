@@ -1,5 +1,15 @@
-   0.005092919s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioCalculadoraCalificaciones"}: cargo::core::compiler::fingerprint: fingerprint error for curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust)/Check { test: false }/TargetInner { name: "desafioCalculadoraCalificaciones", doc: true, ..: with_path("/home/javilazaro/Documents/curso-rust/src/bin/desafioCalculadoraCalificaciones.rs", Edition2021) }
-   0.005100546s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioCalculadoraCalificaciones"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-f0081053fba9e04d/bin-desafioCalculadoraCalificaciones`
+   0.036803751s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioAnalizadorComandosSimple"}: cargo::core::compiler::fingerprint: stale: changed "/home/javilazaro/Documents/curso-rust/src/bin/desafioAnalizadorComandosSimple.rs"
+   0.036809122s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioAnalizadorComandosSimple"}: cargo::core::compiler::fingerprint:           (vs) "/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-d731d563ec599cb4/dep-bin-desafioAnalizadorComandosSimple"
+   0.036810449s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioAnalizadorComandosSimple"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1784911513, nanos: 183278553 } < FileTime { seconds: 1784911590, nanos: 277026487 }
+   0.036823884s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioAnalizadorComandosSimple"}: cargo::core::compiler::fingerprint: fingerprint dirty for curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust)/Check { test: false }/TargetInner { name: "desafioAnalizadorComandosSimple", doc: true, ..: with_path("/home/javilazaro/Documents/curso-rust/src/bin/desafioAnalizadorComandosSimple.rs", Edition2021) }
+   0.036827486s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioAnalizadorComandosSimple"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-d731d563ec599cb4/dep-bin-desafioAnalizadorComandosSimple", reference_mtime: FileTime { seconds: 1784911513, nanos: 183278553 }, stale: "/home/javilazaro/Documents/curso-rust/src/bin/desafioAnalizadorComandosSimple.rs", stale_mtime: FileTime { seconds: 1784911590, nanos: 277026487 } }))
+   0.036882311s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioAnalizadorComandosSimple"}: cargo::core::compiler::fingerprint: stale: changed "/home/javilazaro/Documents/curso-rust/src/bin/desafioAnalizadorComandosSimple.rs"
+   0.036883347s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioAnalizadorComandosSimple"}: cargo::core::compiler::fingerprint:           (vs) "/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-fa06a0b9dcf81fcb/dep-test-bin-desafioAnalizadorComandosSimple"
+   0.036884297s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioAnalizadorComandosSimple"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1784911513, nanos: 186611887 } < FileTime { seconds: 1784911590, nanos: 277026487 }
+   0.036891573s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioAnalizadorComandosSimple"}: cargo::core::compiler::fingerprint: fingerprint dirty for curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust)/Check { test: true }/TargetInner { name: "desafioAnalizadorComandosSimple", doc: true, ..: with_path("/home/javilazaro/Documents/curso-rust/src/bin/desafioAnalizadorComandosSimple.rs", Edition2021) }
+   0.036893563s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioAnalizadorComandosSimple"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-fa06a0b9dcf81fcb/dep-test-bin-desafioAnalizadorComandosSimple", reference_mtime: FileTime { seconds: 1784911513, nanos: 186611887 }, stale: "/home/javilazaro/Documents/curso-rust/src/bin/desafioAnalizadorComandosSimple.rs", stale_mtime: FileTime { seconds: 1784911590, nanos: 277026487 } }))
+   0.037082970s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioCalculadoraCalificaciones"}: cargo::core::compiler::fingerprint: fingerprint error for curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust)/Check { test: false }/TargetInner { name: "desafioCalculadoraCalificaciones", doc: true, ..: with_path("/home/javilazaro/Documents/curso-rust/src/bin/desafioCalculadoraCalificaciones.rs", Edition2021) }
+   0.037085240s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioCalculadoraCalificaciones"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-f0081053fba9e04d/bin-desafioCalculadoraCalificaciones`
 
 Caused by:
     No such file or directory (os error 2)
@@ -25,13 +35,13 @@ Stack backtrace:
   17: <unknown>
   18: __libc_start_main
   19: <unknown>
-   0.005405501s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioCalculadoraCalificaciones"}: cargo::core::compiler::fingerprint: stale: changed "/home/javilazaro/Documents/curso-rust/src/bin/desafioCalculadoraCalificaciones.rs"
-   0.005407535s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioCalculadoraCalificaciones"}: cargo::core::compiler::fingerprint:           (vs) "/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-740e3ccffc68e12f/dep-test-bin-desafioCalculadoraCalificaciones"
-   0.005408672s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioCalculadoraCalificaciones"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1784238439, nanos: 794686018 } < FileTime { seconds: 1784238835, nanos: 770975418 }
-   0.005421701s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioCalculadoraCalificaciones"}: cargo::core::compiler::fingerprint: fingerprint dirty for curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust)/Check { test: true }/TargetInner { name: "desafioCalculadoraCalificaciones", doc: true, ..: with_path("/home/javilazaro/Documents/curso-rust/src/bin/desafioCalculadoraCalificaciones.rs", Edition2021) }
-   0.005424802s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioCalculadoraCalificaciones"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-740e3ccffc68e12f/dep-test-bin-desafioCalculadoraCalificaciones", reference_mtime: FileTime { seconds: 1784238439, nanos: 794686018 }, stale: "/home/javilazaro/Documents/curso-rust/src/bin/desafioCalculadoraCalificaciones.rs", stale_mtime: FileTime { seconds: 1784238835, nanos: 770975418 } }))
-   0.005604298s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioControlAvanzadoBuclesExpresiones"}: cargo::core::compiler::fingerprint: fingerprint error for curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust)/Check { test: false }/TargetInner { name: "desafioControlAvanzadoBuclesExpresiones", doc: true, ..: with_path("/home/javilazaro/Documents/curso-rust/src/bin/desafioControlAvanzadoBuclesExpresiones.rs", Edition2021) }
-   0.005606973s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioControlAvanzadoBuclesExpresiones"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-b881f3aab38891e0/bin-desafioControlAvanzadoBuclesExpresiones`
+   0.037408669s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioCalculadoraCalificaciones"}: cargo::core::compiler::fingerprint: stale: changed "/home/javilazaro/Documents/curso-rust/src/bin/desafioCalculadoraCalificaciones.rs"
+   0.037410516s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioCalculadoraCalificaciones"}: cargo::core::compiler::fingerprint:           (vs) "/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-740e3ccffc68e12f/dep-test-bin-desafioCalculadoraCalificaciones"
+   0.037411514s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioCalculadoraCalificaciones"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1784238439, nanos: 794686018 } < FileTime { seconds: 1784238835, nanos: 770975418 }
+   0.037419848s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioCalculadoraCalificaciones"}: cargo::core::compiler::fingerprint: fingerprint dirty for curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust)/Check { test: true }/TargetInner { name: "desafioCalculadoraCalificaciones", doc: true, ..: with_path("/home/javilazaro/Documents/curso-rust/src/bin/desafioCalculadoraCalificaciones.rs", Edition2021) }
+   0.037422485s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioCalculadoraCalificaciones"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-740e3ccffc68e12f/dep-test-bin-desafioCalculadoraCalificaciones", reference_mtime: FileTime { seconds: 1784238439, nanos: 794686018 }, stale: "/home/javilazaro/Documents/curso-rust/src/bin/desafioCalculadoraCalificaciones.rs", stale_mtime: FileTime { seconds: 1784238835, nanos: 770975418 } }))
+   0.037865101s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioExpresionMatch"}: cargo::core::compiler::fingerprint: fingerprint error for curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust)/Check { test: false }/TargetInner { name: "desafioExpresionMatch", doc: true, ..: with_path("/home/javilazaro/Documents/curso-rust/src/bin/desafioExpresionMatch.rs", Edition2021) }
+   0.037867490s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioExpresionMatch"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-e37d57c6cc40b360/bin-desafioExpresionMatch`
 
 Caused by:
     No such file or directory (os error 2)
@@ -57,13 +67,8 @@ Stack backtrace:
   17: <unknown>
   18: __libc_start_main
   19: <unknown>
-   0.005645744s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioControlAvanzadoBuclesExpresiones"}: cargo::core::compiler::fingerprint: stale: changed "/home/javilazaro/Documents/curso-rust/src/bin/desafioControlAvanzadoBuclesExpresiones.rs"
-   0.005647041s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioControlAvanzadoBuclesExpresiones"}: cargo::core::compiler::fingerprint:           (vs) "/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-e076bf5c08efd4c6/dep-test-bin-desafioControlAvanzadoBuclesExpresiones"
-   0.005648075s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioControlAvanzadoBuclesExpresiones"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 1784839298, nanos: 326097895 } < FileTime { seconds: 1784839608, nanos: 794392819 }
-   0.005655294s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioControlAvanzadoBuclesExpresiones"}: cargo::core::compiler::fingerprint: fingerprint dirty for curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust)/Check { test: true }/TargetInner { name: "desafioControlAvanzadoBuclesExpresiones", doc: true, ..: with_path("/home/javilazaro/Documents/curso-rust/src/bin/desafioControlAvanzadoBuclesExpresiones.rs", Edition2021) }
-   0.005657464s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioControlAvanzadoBuclesExpresiones"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-e076bf5c08efd4c6/dep-test-bin-desafioControlAvanzadoBuclesExpresiones", reference_mtime: FileTime { seconds: 1784839298, nanos: 326097895 }, stale: "/home/javilazaro/Documents/curso-rust/src/bin/desafioControlAvanzadoBuclesExpresiones.rs", stale_mtime: FileTime { seconds: 1784839608, nanos: 794392819 } }))
-   0.005944198s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioExpresionMatch"}: cargo::core::compiler::fingerprint: fingerprint error for curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust)/Check { test: false }/TargetInner { name: "desafioExpresionMatch", doc: true, ..: with_path("/home/javilazaro/Documents/curso-rust/src/bin/desafioExpresionMatch.rs", Edition2021) }
-   0.005946392s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioExpresionMatch"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-e37d57c6cc40b360/bin-desafioExpresionMatch`
+   0.038192531s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioInicioVariables"}: cargo::core::compiler::fingerprint: fingerprint error for curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust)/Check { test: false }/TargetInner { name: "desafioInicioVariables", doc: true, ..: with_path("/home/javilazaro/Documents/curso-rust/src/bin/desafioInicioVariables.rs", Edition2021) }
+   0.038194766s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioInicioVariables"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-dd27d52ea9ed3427/bin-desafioInicioVariables`
 
 Caused by:
     No such file or directory (os error 2)
@@ -89,35 +94,8 @@ Stack backtrace:
   17: <unknown>
   18: __libc_start_main
   19: <unknown>
-   0.006219396s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioInicioVariables"}: cargo::core::compiler::fingerprint: fingerprint error for curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust)/Check { test: false }/TargetInner { name: "desafioInicioVariables", doc: true, ..: with_path("/home/javilazaro/Documents/curso-rust/src/bin/desafioInicioVariables.rs", Edition2021) }
-   0.006221747s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioInicioVariables"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-dd27d52ea9ed3427/bin-desafioInicioVariables`
-
-Caused by:
-    No such file or directory (os error 2)
-
-Stack backtrace:
-   0: <unknown>
-   1: <unknown>
-   2: <unknown>
-   3: <unknown>
-   4: <unknown>
-   5: <unknown>
-   6: <unknown>
-   7: <unknown>
-   8: <unknown>
-   9: <unknown>
-  10: <unknown>
-  11: <unknown>
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: <unknown>
-  17: <unknown>
-  18: __libc_start_main
-  19: <unknown>
-   0.006270525s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioInicioVariables"}: cargo::core::compiler::fingerprint: fingerprint error for curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust)/Check { test: true }/TargetInner { name: "desafioInicioVariables", doc: true, ..: with_path("/home/javilazaro/Documents/curso-rust/src/bin/desafioInicioVariables.rs", Edition2021) }
-   0.006272670s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioInicioVariables"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-8f63e8657daf52a6/test-bin-desafioInicioVariables`
+   0.038240344s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioInicioVariables"}: cargo::core::compiler::fingerprint: fingerprint error for curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust)/Check { test: true }/TargetInner { name: "desafioInicioVariables", doc: true, ..: with_path("/home/javilazaro/Documents/curso-rust/src/bin/desafioInicioVariables.rs", Edition2021) }
+   0.038242398s  INFO prepare_target{force=false package_id=curso-rust v0.1.0 (/home/javilazaro/Documents/curso-rust) target="desafioInicioVariables"}: cargo::core::compiler::fingerprint:     err: failed to read `/home/javilazaro/Documents/curso-rust/target/debug/.fingerprint/curso-rust-8f63e8657daf52a6/test-bin-desafioInicioVariables`
 
 Caused by:
     No such file or directory (os error 2)
@@ -148,5 +126,5 @@ error: could not compile `curso-rust` (bin "desafioInicioVariables") due to 1 pr
 warning: build failed, waiting for other jobs to finish...
 error: could not compile `curso-rust` (bin "desafioExpresionMatch") due to 1 previous error
 error: could not compile `curso-rust` (bin "desafioInicioVariables" test) due to 1 previous error
-error: could not compile `curso-rust` (bin "desafioCalculadoraCalificaciones" test) due to 1 previous error
 error: could not compile `curso-rust` (bin "desafioCalculadoraCalificaciones") due to 1 previous error
+error: could not compile `curso-rust` (bin "desafioCalculadoraCalificaciones" test) due to 1 previous error
