@@ -1,0 +1,55 @@
+// Recibirás tres entradas: primero, una lista de tareas existentes separadas por comas; segundo, un número de tarea a eliminar (indexación basada en 1); y tercero, una nueva tarea para añadir después de la eliminación. Lee todas las entradas, crea un vector a partir de las tareas, elimina la tarea especificada, añade la nueva tarea y muestra la lista de tareas actualizada.
+//
+// Requisitos:
+//
+// Lee la primera entrada que contiene descripciones de tareas separadas por comas (por ejemplo, Buy groceries,Call dentist,Finish homework)
+// Divide la cadena por comas para obtener las tareas individuales
+// Crea un vector mutable y añade cada tarea a él
+// Lee la segunda entrada y conviértela en un entero (el número de tarea a eliminar, usando indexación basada en 1)
+// Convierte el índice basado en 1 a basado en 0 y usa .remove() para eliminar la tarea en ese índice
+// Lee la tercera entrada que contiene una nueva tarea para añadir
+// Usa .push() para añadir la nueva tarea al vector
+// Imprime el número total de tareas en el formato: Total tasks: X
+// Imprime cada tarea en una línea separada en el formato: Task: [task description]
+// Entrada:
+//
+// Primera línea: Descripciones de tareas separadas por comas (por ejemplo, Buy groceries,Call dentist,Finish homework)
+// Segunda línea: Un entero que representa el número de tarea a eliminar (indexación basada en 1)
+// Tercera línea: Una nueva tarea para añadir (por ejemplo, Study for exam)
+// Salida:
+//
+// Primera línea: Total tasks: X donde X es el número total de tareas después de la eliminación y adición
+// Líneas siguientes: Cada tarea impresa como Task: [task description]
+//
+
+use std::io::{self, BufRead};
+
+fn main() {
+    let stdin = io::stdin();
+    let mut lines = stdin.lock().lines();
+
+    // Leer las tareas separadas por comas
+    let tasks_input = lines.next().unwrap().unwrap();
+
+    // Leer el número de tarea a eliminar (indexación basada en 1)
+    let task_to_remove = lines.next().unwrap().unwrap();
+    let task_number: usize = task_to_remove.trim().parse().unwrap();
+
+    // Leer la nueva tarea para añadir
+    let new_task = lines.next().unwrap().unwrap();
+
+    // TODO: Escribe tu código abajo
+    // Dividir tasks_input por comas y crear un vector mutable
+    let mut tasks: Vec<String> = tasks_input
+        .trim()
+        .split(',')
+        .map(|task| task.trim().parse::<String>().unwrap())
+        .colletct();
+    println!("{}", tasks);
+    // Eliminar la tarea en el índice especificado (convertir de base 1 a base 0)
+    // Añadir la nueva tarea al vector
+
+    // Mostrar los resultados
+    // Imprimir el total de tareas en formato: Total tasks: X
+    // Imprimir cada tarea en formato: Task: [task description]
+}
