@@ -3,3 +3,6 @@
 
 # Local backup copies of exercises
 *.local.rs
+
+# Skill registry (generated locally)
+.atl/
